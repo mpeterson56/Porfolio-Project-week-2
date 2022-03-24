@@ -7,14 +7,20 @@ body {background-color: bisque;}
 header {
     padding: 20px 35px;
     background-color: #00630d;
+    flex-flow: column;
+    flex-shrink: 100%;
+    
+    
   }
   
+
   header h1 {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 34px;
     color: #330063;
     margin: 20px;
-    display: inline;
+    display: inline-flex;
+    ;
   }
   header a {
     text-decoration: none;
@@ -23,7 +29,7 @@ header {
   
   header nav {
     float: right;
-    margin: 7px 0;
+    margin: 0px 0;
   }
   
   header nav ul li {
@@ -37,18 +43,21 @@ header {
   }
 
   .hero-jumbo {
-    background-image: url('../images/img_2234.jpg'); 
-    height: 300px;
+    background-image: url('../images/IMG_E0836.jpg'); 
+    height: 600px;
     background-size: 500px;
-    background-position: bottom ;
+    background-position: center ;
     ;
   }
 .hero h2 {
-    margin-left: 820px ;
-    padding-top: 275px;
-    color: #000000;
-    
-    
+    margin-left: 870px ;
+    padding-top: 375px;
+    color: #ffffff;
+    }
+
+.section-label  {
+font-size: 50px ;
+
 }
 
 
@@ -57,34 +66,32 @@ header {
 
 
 
+footer {
+  background: #00630d;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+footer h2 {
+  color: #330063;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #330063;
+}
 
 
 
 
 
 
-
-
-
-  footer {
-    background: #00630d;
-    width: 100%;
-    padding: 40px 35px;
-  }
-  
-  footer h2 {
-    display: inline;
-    color: #330063;
-    font-size: 30px;
-    margin: 0;
-  }
-  
-  footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-  }
-  
-  footer a {
-    color: #00630d;
-  }

@@ -55,14 +55,61 @@ header {
     color: #ffffff;
     }
 
-.section-label  {
-font-size: 50px ;
 
+
+
+/* content*/
+.section-title1 {
+display: flex;
+flex-shrink: 2;
+  width:25% ;
+ margin: 35% 15% 5% 5%;
+height: 100%;
+font-size: 400%;
+
+}
+
+.about { 
+  display: flex;
+  flex: content;
+  justify-content: baseline;
+ 
+}
+
+.about article {
+margin: 10% 0 0 25%;
+padding: 30px;
+border-left: #330063;
+border-style: ridge;
+border-right: 0;
+border-bottom: 0;
+border-top: 0;
+}
+
+.section-title2 {
+  display: flex;
+  flex-shrink: 2;
+    width:25% ;
+  height: 100%;
+  font-size: 400%;
+  align-items: center;
 }
 
 
 
-
+.bio-pic img{
+ display: flex;
+  width: 60%;
+  height: 75%;
+    margin: 0% 0 0 25%;
+    padding: 30px;
+    border-left: #330063;
+    border-style: ridge;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    
+    }
 
 
 
@@ -77,7 +124,7 @@ footer {
 
 footer h2 {
   color: #330063;
-  font-size: 30px;
+  font-size: 300%;
   margin: 0;
 }
 

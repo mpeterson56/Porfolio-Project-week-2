@@ -1,0 +1,30 @@
+h2 {
+font-size:x-large;
+text-align: center;
+color: darkgreen;
+background-color: coral;
+text-decoration: underline;
+}
+h3 {
+font-size: smaller;
+text-align: center;
+color: green;
+background-color: rgb(109, 0, 0);
+}
+h1 {
+text-align: left;
+color: darkgreen;
+background-color: rgb(47, 9, 83) ;
+}
+ul 
+{text-align: left;}
+li {color: green}
+
+
+ .email {background-color:pink;}
+
+ .git {background-color: coral;}
+.port {background-color: darkgoldenrod;}
+
+body {background-color: black;}
+header {color: aliceblue;}

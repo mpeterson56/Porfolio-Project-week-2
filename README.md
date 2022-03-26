@@ -12,7 +12,7 @@ links in navigation bar will take you to corrisponding section on page. photo li
 * https://www.w3schools.com/
 
 ## Website
-https://lernantino.github.io/run-buddy/
+https://mpeterson56.github.io/Portfolio-Project-week-2/
 
 ## Contribution
-Made with ❤️ by [your name]
+Made with ❤️ by [Michael Peterson]

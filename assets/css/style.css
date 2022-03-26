@@ -40,6 +40,12 @@ header {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+    border-bottom:beige ;
+    border-style: solid;
+    border-left: #00630d;
+    border-right: #00630d;
+    border-top: #00630d;
+    background-color: #00630d;
   }
 
   .hero-jumbo {
@@ -118,6 +124,7 @@ border-top: 0;
 padding-right: 22%;
 }
 .work-pic1 {
+
 margin-top: 30px;
 margin-left: 20px;
 }
@@ -125,13 +132,18 @@ margin-left: 20px;
 flex-shrink: 2;
 height: 70%;
 width: 65%;
-
+border-color: #00630d;
+border-style: solid;
+border-width: 5px;
 }
  
 .work-pic img {
   width: 30%;
   height: 60%;
   margin-left: 20px;
+  border-color: #00630d;
+  border-style: solid;
+  border-width: 5px;
 }
 
 
@@ -139,7 +151,7 @@ footer {
   background: #00630d;
   padding: 40px 35px;
   display: flex;
-  justify-content: space-between;
+justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -154,7 +166,15 @@ footer div {
   line-height: 1.5;
   text-align: right;
 }
+footer ul{
+  display: flex;
+  flex-flow: column;
+float: right;
+}
 
+footer ul li{
+  display: inline;
+}
 footer a {
   color: #330063;
 }
@@ -164,3 +184,14 @@ footer a {
 
 
 
+.work-pic img:hover{
+  border-color: red;
+}
+.work-pic1 img:hover{
+  border-color: red;
+}
+
+header nav ul li a:hover{
+ 
+  background-color: beige;
+}

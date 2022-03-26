@@ -49,7 +49,7 @@ header {
   }
 
   .hero-jumbo {
-    background-image: url('./images/IMG_E0836.jpg'); 
+    background-image: url('../images/IMG_E0836.jpg'); 
     height: 600px;
     background-size: 500px;
     background-position: center ;

@@ -1,4 +1,5 @@
 # Portfolio-Michael Peterson
+![67695937438__538A2EFE-408C-4C93-9C0B-585B6D9C3243](https://user-images.githubusercontent.com/100823810/183262193-2c6b62b1-ace0-435c-a5b2-ffe647650d44.jpeg)
 
 # Portfolio
 
